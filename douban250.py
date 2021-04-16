@@ -21,6 +21,7 @@ def insert(db_name,table_name,info):
     conn.commit() 
     conn.close()
 
+
 def select_data(db_name,table_name):
     conn = sqlite3.connect(db_name)
     c = conn.cursor()
