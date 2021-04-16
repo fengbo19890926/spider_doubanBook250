@@ -2,6 +2,7 @@ from urllib import request
 import re
 from urllib import error
 
+
 class Spider():
     url = 'https://book.douban.com/top250?start=0'
     root_pattern = '<div class="pl2">([\s\S]*?)</div>'
